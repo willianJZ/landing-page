@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background: #5D6D7E;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5em;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.btn-primary {
+    background: #2980B9;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: #3498DB;
+}
+
+.features, .testimonials {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.features h2, .testimonials h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+
+.gallery-item {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.gallery-item h3 {
+    font-size: 1.5em;
+    color: #2980B9;
+}
+
+.gallery-item p, .gallery-item span {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+.conclusion1Eje{
+    background: darkgray;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.gallery {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.gallery-item {
+    margin: 5px;
+    
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+.gallery .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5px;
+}
